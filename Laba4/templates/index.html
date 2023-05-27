@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 Simplify by Oleksandr Rakhlinskyi</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-12">
+        <h1 class="text-4xl font-bold mb-6">Lab 4 Simplify by Oleksandr Rakhlinskyi</h1>
+        <form id="simplify-form" class="bg-white p-6 rounded shadow">
+            <label for="expression" class="block mb-2">Enter expression:</label>
+            <input type="text" id="expression" name="expression" class="border p-2 w-full mb-4" required>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Simplify</button>
+        </form>
+        <div id="result" class="mt-6 text-lg font-semibold"></div>
+        <div id="error" class="hidden mt-6 text-lg font-semibold text-red-600"></div>
+    </div>
+</body>
+</html>
